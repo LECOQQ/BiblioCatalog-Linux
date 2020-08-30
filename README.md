@@ -6,4 +6,4 @@ Language : C++
 
 Programming IDE : Visual Studio 2017
 
-08/26/2020 : 
+08/30/2020 : Functions.h and Books.h done. Little interface coming with .exe. Thanks to it, you can add books to your CSV file, erase your CSV file, and watch which book you got in your CSV file.
