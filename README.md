@@ -1,17 +1,12 @@
 # BiblioCatalog
+BiblioCatalog is meant to be a simple portable library. As it is right now, it's only a simple program using a csv file for the moment.
 
-Goal : create an app/soft that would allow me to catalog my home library
+## Goal 
+First i'll work towards a fully operational app for linux shell. Once it's done, i'll try to go for a windows app using QT, and an android one using Google Studio. Then I want to be able to link all of them.
 
-Language : C++
+## Description of the actual code 
+### Linux/Windows console app
+For Linux, just run BiblioCatalog, it will asks you what you want to do. Go forward. It will create a csv file into the directory which will stock your books.
 
-Programming IDE : Visual Studio 2017
-
-What to do next ? c++-wise : Add an erase only option, add commentaries to make the code easier to read
-Start making an android app with the bibliocatalog in.
-
-09/09/2020 : I added missings const&, changed the interface to get smtg universal.
-
-09/01/2020 : Books.h class changed to get the csv datas in a class. In doing so i'm able to act on those data. Added a sort and a search function. 
-
-08/30/2020 : Functions.h and Books.h started. You can add books to your library, erase them, and list them.
-
+To create a Windows.exe console app, launch an app like Visual. Create a solution and put the .h/.cpp into it. 
+Change every system("clear") by system("cls"). Compile. 
