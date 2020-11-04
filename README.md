@@ -9,4 +9,4 @@ First i'll work towards a fully operational app for linux shell. Once it's done,
 For Linux, just run BiblioCatalog, it will asks you what you want to do. Go forward. It will create a csv file into the directory which will stock your books.
 
 To create a Windows.exe console app, launch an app like Visual. Create a solution and put the .h/.cpp into it. 
-Change every system("clear") by system("cls"). Compile. 
+Change every system("clear") by system("cls"). You can remove the <cstring> include. Compile. 
